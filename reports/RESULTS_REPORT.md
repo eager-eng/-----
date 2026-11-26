@@ -102,3 +102,7 @@ $monthPackage = 'On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024
 夏令时审计在 3 月和 11 月切换日及其前后各一天检查八机场之间的 7,007 条航段。按计划离港当地时间生成 UTC 候选，再用计划轮挡耗时与目的地计划到达钟点核对。6,994 条可唯一匹配，其中 1 条重复的秋季离港时刻由到达钟点消歧。全部匹配项的截止时点均为离港 UTC 前 24 个实际小时。其余 13 条均在春季切换日前一天，推算与报送到达钟点有差异，其中 12 条相差 60 分钟，1 条相差 1 分钟。异常保留源行和标记，第 1 问继续使用 BTS 报送结局及延误分钟。 [审核汇总](../data/analysis/development/dst_clock_summary.csv) · [逐航段明细](../data/analysis/development/dst_clock_checks.csv.gz) · [检查脚本](../code/bts_dst_audit.py) · [BTS 第 31 号指令](https://www.bts.gov/topics/airlines-and-airports/number-31-technical-directive-time-reporting-effective-jan-1-2019) · [NIST 夏令时规则](https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst)
 
 开发期数据准备已验收。按月压缩 CSV、分组覆盖表和异常明细已用于第 1 问计算。 [问题一计算结果](问题一计算结果.md)
+
+## 8. 问题二 · 排名与航班构成
+
+2023–2024 年八场计划出发航段共 3,247,351 条。48 格直接标准化后，PDX 的 $R_1$ 排第 1。全年 $R_1$ 和 $D_{60}$ 各出现一处点名次换位，区间证据不足。标准化后区间含零的机场对分别为 9/28、10/28，两个指标的区间半宽中位数分别为 2.23、1.67 个百分点。四家公共承运人专项内，加入承运人项后 ATL 的 $R_1$ 下降 3.82 个百分点，反映该样本内的设定敏感性。SFO 相对 ATL 的冬夏变动在统一时段和航距后保留区间证据。统一八家共同承运人构成后，SFO 的夏季 $R_1$ 高 6.16 个百分点，冬季差值的区间含零。8 个机场和 192 个机场月与问题一对账一致，两项主推断各有 1,000 次有效重抽。项目 12 个测试用例通过，其中问题二专用用例 3 个。 [问题二结果与结论](问题二计算结果.md) · [运行清单](../outputs/问题二计算结果/manifest.json) · [调整前后差异图](../figures/问题二计算结果/rank_adjustment_intervals.pdf) · [冬夏变化图](../figures/问题二计算结果/seasonal_variation_and_reversal.pdf)
