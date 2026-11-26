@@ -1,0 +1,40 @@
+{
+  "months": [
+    "2024-01",
+    "2024-07"
+  ],
+  "years": [
+    2024
+  ],
+  "airports": [
+    "ATL",
+    "DEN",
+    "DFW",
+    "MCO",
+    "ORD",
+    "PDX",
+    "RDU",
+    "SFO"
+  ],
+  "selected_union_rows": 513742,
+  "selected_origin_rows": 275173,
+  "selected_destination_rows": 275182,
+  "cross_month_issue_rows": 0,
+  "same_key_cross_month_groups": 0,
+  "batch_script_sha256": "b4848f1523616de8bdaf7026ff2aec682d20517fdc2860a1bec3a3f02b42181f",
+  "command_argv": [
+    "C:\\Users\\zhaozhiyi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "code/bts_batch.py",
+    "--raw-dir",
+    "data/raw/bts",
+    "--output",
+    "data/analysis/pilot",
+    "--months",
+    "2024-01",
+    "2024-07"
+  ],
+  "monthly_manifests": [
+    "2024-01/manifest.json",
+    "2024-07/manifest.json"
+  ]
+}

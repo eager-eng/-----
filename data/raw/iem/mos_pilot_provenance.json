@@ -1,0 +1,16 @@
+{
+  "KORD": {
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KORD&model=GFS&sts=2024-01-08T12%3A00Z&ets=2024-01-08T12%3A00Z&format=csv",
+    "rows": 21,
+    "runtime": "2024-01-08 12:00:00",
+    "first_valid": "2024-01-08 18:00:00",
+    "last_valid": "2024-01-11 12:00:00"
+  },
+  "KATL": {
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KATL&model=GFS&sts=2024-01-08T12%3A00Z&ets=2024-01-08T12%3A00Z&format=csv",
+    "rows": 21,
+    "runtime": "2024-01-08 12:00:00",
+    "first_valid": "2024-01-08 18:00:00",
+    "last_valid": "2024-01-11 12:00:00"
+  }
+}

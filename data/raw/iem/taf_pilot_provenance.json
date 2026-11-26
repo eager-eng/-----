@@ -1,0 +1,14 @@
+{
+  "ORD": {
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/taf.py?sts=2024-01-08T00%3A00Z&ets=2024-01-09T00%3A00Z&station=ORD&fmt=csv&tz=UTC",
+    "records": 58,
+    "routine_products": 4,
+    "transfer_verification": "complete HTTP response"
+  },
+  "ATL": {
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/taf.py?sts=2024-01-08T00%3A00Z&ets=2024-01-09T00%3A00Z&station=ATL&fmt=csv&tz=UTC",
+    "records": 84,
+    "routine_products": 4,
+    "transfer_verification": "complete HTTP response"
+  }
+}

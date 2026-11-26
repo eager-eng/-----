@@ -1,0 +1,12 @@
+source_file_month,status,cutoff_wall_hours,size
+2023-03,matched_unique,24.0,1101
+2023-03,matched_unique,25.0,562
+2023-03,scheduled_arrival_clock_mismatch,,11
+2023-11,fold_matched_using_arrival,24.0,1
+2023-11,matched_unique,23.0,611
+2023-11,matched_unique,24.0,1178
+2024-03,matched_unique,24.0,1183
+2024-03,matched_unique,25.0,611
+2024-03,scheduled_arrival_clock_mismatch,,2
+2024-11,matched_unique,23.0,627
+2024-11,matched_unique,24.0,1120

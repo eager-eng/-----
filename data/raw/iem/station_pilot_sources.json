@@ -1,0 +1,102 @@
+{
+  "taf_text/202401080256-KLOT-FTUS43-TAFORD-AAA.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401080256-KLOT-FTUS43-TAFORD-AAA",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401080520-KLOT-FTUS43-TAFORD.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401080520-KLOT-FTUS43-TAFORD",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401080754-KLOT-FTUS43-TAFORD-AAA.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401080754-KLOT-FTUS43-TAFORD-AAA",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401080901-KLOT-FTUS43-TAFORD-AAB.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401080901-KLOT-FTUS43-TAFORD-AAB",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401081027-KLOT-FTUS43-TAFORD-AAC.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401081027-KLOT-FTUS43-TAFORD-AAC",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401081133-KLOT-FTUS43-TAFORD.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401081133-KLOT-FTUS43-TAFORD",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401081451-KLOT-FTUS43-TAFORD-AAA.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401081451-KLOT-FTUS43-TAFORD-AAA",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401081743-KLOT-FTUS43-TAFORD.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401081743-KLOT-FTUS43-TAFORD",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401082106-KLOT-FTUS43-TAFORD-AAA.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401082106-KLOT-FTUS43-TAFORD-AAA",
+    "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+  },
+  "taf_text/202401082336-KLOT-FTUS43-TAFORD.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401082336-KLOT-FTUS43-TAFORD",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "gfs_mos_KORD_2024-01-08_12z.csv": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/mos.txt?station=KORD&model=GFS&runtime=2024-01-08+12%3A00Z",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401080135-KFFC-FTUS42-TAFATL-AAA.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401080135-KFFC-FTUS42-TAFATL-AAA",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401080343-KFFC-FTUS42-TAFATL-AAB.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401080343-KFFC-FTUS42-TAFATL-AAB",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401080536-KFFC-FTUS42-TAFATL.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401080536-KFFC-FTUS42-TAFATL",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401080743-KFFC-FTUS42-TAFATL-AAA.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401080743-KFFC-FTUS42-TAFATL-AAA",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401081000-KFFC-FTUS42-TAFATL-AAB.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401081000-KFFC-FTUS42-TAFATL-AAB",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401081130-KFFC-FTUS42-TAFATL.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401081130-KFFC-FTUS42-TAFATL",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401081358-KFFC-FTUS42-TAFATL-AAA.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401081358-KFFC-FTUS42-TAFATL-AAA",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401081602-KFFC-FTUS42-TAFATL-AAB.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401081602-KFFC-FTUS42-TAFATL-AAB",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401081747-KFFC-FTUS42-TAFATL.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401081747-KFFC-FTUS42-TAFATL",
+    "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+  },
+  "taf_text/202401081950-KFFC-FTUS42-TAFATL-AAA.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401081950-KFFC-FTUS42-TAFATL-AAA",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401082150-KFFC-FTUS42-TAFATL-AAB.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401082150-KFFC-FTUS42-TAFATL-AAB",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401082308-KFFC-FTUS42-TAFATL-AAC.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401082308-KFFC-FTUS42-TAFATL-AAC",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "taf_text/202401082341-KFFC-FTUS42-TAFATL.txt": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/nwstext/202401082341-KFFC-FTUS42-TAFATL",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  },
+  "gfs_mos_KATL_2024-01-08_12z.csv": {
+    "source": "https://mesonet.agron.iastate.edu/api/1/mos.txt?station=KATL&model=GFS&runtime=2024-01-08+12%3A00Z",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get issuer certificate (_ssl.c:1010)>"
+  }
+}
