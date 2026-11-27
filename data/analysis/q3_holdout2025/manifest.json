@@ -1,0 +1,59 @@
+{
+  "months": [
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "years": [
+    2025
+  ],
+  "airports": [
+    "ATL",
+    "DEN",
+    "DFW",
+    "MCO",
+    "ORD",
+    "PDX",
+    "RDU",
+    "SFO"
+  ],
+  "selected_union_rows": 3170258,
+  "selected_origin_rows": 1696086,
+  "selected_destination_rows": 1696027,
+  "cross_month_issue_rows": 0,
+  "same_key_cross_month_groups": 0,
+  "batch_script_sha256": "b4848f1523616de8bdaf7026ff2aec682d20517fdc2860a1bec3a3f02b42181f",
+  "command_argv": [
+    "C:\\Users\\zhaozhiyi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "code/bts_batch.py",
+    "--raw-dir",
+    "C:\\Users\\zhaozhiyi\\Desktop\\\u7f8e\u8d5b\u7b2c\u4e00\u9898\\data\\raw\\bts",
+    "--output",
+    "C:\\Users\\zhaozhiyi\\Desktop\\\u7f8e\u8d5b\u7b2c\u4e00\u9898\\data\\analysis\\q3_holdout2025",
+    "--years",
+    "2025"
+  ],
+  "monthly_manifests": [
+    "2025-01/manifest.json",
+    "2025-02/manifest.json",
+    "2025-03/manifest.json",
+    "2025-04/manifest.json",
+    "2025-05/manifest.json",
+    "2025-06/manifest.json",
+    "2025-07/manifest.json",
+    "2025-08/manifest.json",
+    "2025-09/manifest.json",
+    "2025-10/manifest.json",
+    "2025-11/manifest.json",
+    "2025-12/manifest.json"
+  ]
+}

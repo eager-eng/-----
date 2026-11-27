@@ -13,8 +13,6 @@ for variable in ("OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS", "MKL_NUM_THREADS"):
 
 import numpy as np
 import pandas as pd
-import statsmodels
-import statsmodels.api as sm
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "code" / "问题一"))
@@ -319,37 +317,6 @@ def direct_special(data, strata, airports, base, minimum=1):
     return table, support, cells
 
 
-def logistic(support, strata, cells, airports, compare, label):
-    """Fit both models on identical cells and average over one pooled reference."""
-    columns = ["N", "T", "D"]
-    keys = ["airport", *strata]
-    g = support.groupby(keys, observed=True)[columns].sum().reset_index()
-    target = g.groupby(strata, observed=True).N.sum().reset_index()
-    if len(target) != len(cells):
-        raise ValueError("Logistic reference differs from support")
-    covariates = [item for item in strata if item != compare]
-    target = target.merge(pd.DataFrame({"airport": airports}), how="cross")
-    rows = []
-    for model, predictors in (("base", ["airport", *covariates]), ("added", keys)):
-        x = pd.get_dummies(g[predictors].astype(str), drop_first=True, dtype=float)
-        design = sm.add_constant(x, has_constant="add")
-        predict_x = pd.get_dummies(target[predictors].astype(str), drop_first=True, dtype=float)
-        predict_x = sm.add_constant(predict_x, has_constant="add").reindex(columns=design.columns, fill_value=0)
-        if np.linalg.matrix_rank(design.to_numpy()) != design.shape[1]:
-            raise ValueError(f"Nonidentified {label} logistic design")
-        for metric, event in METRICS.items():
-            fit = sm.GLM(np.c_[g[event], g.N-g[event]], design, family=sm.families.Binomial()).fit()
-            if not fit.converged:
-                raise ValueError(f"Nonconverged {label} logistic fit")
-            predict = fit.predict(predict_x)
-            for airport in airports:
-                keep = target.airport.eq(airport)
-                rows.append({"specialty": label, "airport": airport, "metric": metric,
-                             "model": model, "rate": np.average(predict[keep], weights=target.N[keep]),
-                             "iterations": fit.fit_history["iteration"], "cells": len(cells)})
-    return pd.DataFrame(rows)
-
-
 def seasonal_pattern(daily, dates, draws):
     data = daily.loc[daily.airport.isin(PAIR) & daily.season.isin(["DJF", "JJA"])].copy()
     data["year"] = data.date.dt.year
@@ -482,7 +449,7 @@ def run(args):
     destination.insert(0, "specialty", "destination_all")
     pair_dest = ("ATL", "ORD")
     pair_keys = ["season", "time", "dest"]
-    by_pair, pair_support, pair_cells = direct_special(pooled, pair_keys, pair_dest, airport.N, 50)
+    by_pair, _, _ = direct_special(pooled, pair_keys, pair_dest, airport.N, 50)
     by_pair.insert(0, "specialty", "destination_ATL_ORD")
     destination_time_sample, destination_time = shared(pooled, ["dest", "season", "time"], AIRPORTS)
     destination_band_sample, destination_band = shared(pooled, ["dest", *STRATA], AIRPORTS)
@@ -499,10 +466,6 @@ def run(args):
     ], ignore_index=True)
     if sorted(args.years) == [2023, 2024] and (len(combined), len(destination_band)) != (0, 0):
         raise ValueError("Development joint-support check differs from audit")
-    logistic_results = pd.concat([
-        logistic(car_support, carrier_strata, car_cells, AIRPORTS, "carrier", "carrier_joint"),
-        logistic(pair_support, pair_keys, pair_cells, pair_dest, "dest", "destination_ATL_ORD"),
-    ], ignore_index=True)
     print("Specialties estimated; resampling SFO–ATL winter and summer", flush=True)
     pattern, pattern_ci, reporting = seasonal_pattern(daily, dates, draws)
     output = args.output
@@ -512,7 +475,7 @@ def run(args):
         "kitagawa": kita, "four_dimensions": descriptive, "daily_rates": day, "monthly_rates": month,
         "variation": variation, "specialties": pd.concat([carrier, destination, by_pair], ignore_index=True),
         "support_audit": support_audit, "unknown_bounds": bounds,
-        "logistic_sensitivity": logistic_results, "sfo_atl_profiles": pattern,
+        "sfo_atl_profiles": pattern,
         "sfo_atl_inference": pattern_ci, "sfo_atl_reporting": reporting,
     }
     for name, table in results.items():
@@ -533,7 +496,7 @@ def run(args):
     }
     manifest = {"years": args.years, "bootstrap_reps": args.bootstrap_reps, "block_days": args.block_days,
                 "seed": args.seed, "python": sys.version, "pandas": pd.__version__, "numpy": np.__version__,
-                "statsmodels": statsmodels.__version__, "checks": checks, "inputs": sources,
+                "checks": checks, "inputs": sources,
                 "script_sha256": {p.name: sha256(p) for p in (Path(__file__), Path(__file__).with_name("q2_figures.py"))},
                 "outputs": {name+".csv": sha256(output / (name+".csv")) for name in results},
                 "figures": {p.name: sha256(p) for p in figure_paths}}

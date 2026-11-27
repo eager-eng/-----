@@ -1,0 +1,61 @@
+{
+  "months": [
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09"
+  ],
+  "years": [
+    2026
+  ],
+  "airports": [
+    "ATL",
+    "DEN",
+    "DFW",
+    "MCO",
+    "ORD",
+    "PDX",
+    "RDU",
+    "SFO"
+  ],
+  "selected_union_rows": 2455322,
+  "selected_origin_rows": 1313115,
+  "selected_destination_rows": 1313176,
+  "cross_month_issue_rows": 0,
+  "same_key_cross_month_groups": 0,
+  "batch_script_sha256": "b4848f1523616de8bdaf7026ff2aec682d20517fdc2860a1bec3a3f02b42181f",
+  "command_argv": [
+    "C:\\Users\\zhaozhiyi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "code/bts_batch.py",
+    "--raw-dir",
+    "C:\\Users\\zhaozhiyi\\Desktop\\\u7f8e\u8d5b\u7b2c\u4e00\u9898\\data\\raw\\bts",
+    "--output",
+    "C:\\Users\\zhaozhiyi\\Desktop\\\u7f8e\u8d5b\u7b2c\u4e00\u9898\\data\\analysis\\q3_later2026",
+    "--months",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09"
+  ],
+  "monthly_manifests": [
+    "2026-01/manifest.json",
+    "2026-02/manifest.json",
+    "2026-03/manifest.json",
+    "2026-04/manifest.json",
+    "2026-05/manifest.json",
+    "2026-06/manifest.json",
+    "2026-07/manifest.json",
+    "2026-08/manifest.json",
+    "2026-09/manifest.json"
+  ]
+}

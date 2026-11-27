@@ -1,0 +1,226 @@
+[
+  {
+    "station": "KDFW",
+    "year": 2023,
+    "status": "curl: (22) The requested URL returned error: 429",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KDFW&model=GFS&sts=2023-01-01T00%3A00Z&ets=2023-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KATL",
+    "year": 2024,
+    "status": "curl: (22) The requested URL returned error: 429",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KATL&model=GFS&sts=2024-01-01T00%3A00Z&ets=2024-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KDFW",
+    "year": 2025,
+    "status": "curl: (22) The requested URL returned error: 429",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KDFW&model=GFS&sts=2025-01-01T00%3A00Z&ets=2025-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KATL",
+    "year": 2026,
+    "status": "curl: (22) The requested URL returned error: 429",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KATL&model=GFS&sts=2026-01-01T00%3A00Z&ets=2026-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KMCO",
+    "year": 2023,
+    "status": "curl: (22) The requested URL returned error: 429",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KMCO&model=GFS&sts=2023-01-01T00%3A00Z&ets=2023-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KDFW",
+    "year": 2024,
+    "status": "curl: (22) The requested URL returned error: 429",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KDFW&model=GFS&sts=2024-01-01T00%3A00Z&ets=2024-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KDEN",
+    "year": 2024,
+    "status": "curl: (22) The requested URL returned error: 429",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KDEN&model=GFS&sts=2024-01-01T00%3A00Z&ets=2024-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KDEN",
+    "year": 2025,
+    "status": "curl: (22) The requested URL returned error: 429",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KDEN&model=GFS&sts=2025-01-01T00%3A00Z&ets=2025-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KMCO",
+    "year": 2024,
+    "status": "curl: (22) The requested URL returned error: 429",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KMCO&model=GFS&sts=2024-01-01T00%3A00Z&ets=2024-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KDEN",
+    "year": 2023,
+    "status": "curl: (28) Operation timed out after 45012 milliseconds with 320134 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KDEN&model=GFS&sts=2023-01-01T00%3A00Z&ets=2023-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KATL",
+    "year": 2025,
+    "status": "curl: (28) Operation timed out after 45015 milliseconds with 375956 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KATL&model=GFS&sts=2025-01-01T00%3A00Z&ets=2025-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KDEN",
+    "year": 2026,
+    "status": "curl: (28) Operation timed out after 45000 milliseconds with 400134 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KDEN&model=GFS&sts=2026-01-01T00%3A00Z&ets=2026-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KORD",
+    "year": 2023,
+    "status": "curl: (28) Operation timed out after 45003 milliseconds with 361032 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KORD&model=GFS&sts=2023-01-01T00%3A00Z&ets=2023-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KDFW",
+    "year": 2026,
+    "status": "curl: (22) The requested URL returned error: 429",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KDFW&model=GFS&sts=2026-01-01T00%3A00Z&ets=2026-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KATL",
+    "year": 2023,
+    "status": "curl: (28) Operation timed out after 45004 milliseconds with 376892 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KATL&model=GFS&sts=2023-01-01T00%3A00Z&ets=2023-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KMCO",
+    "year": 2026,
+    "status": "curl: (22) The requested URL returned error: 429",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KMCO&model=GFS&sts=2026-01-01T00%3A00Z&ets=2026-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KPDX",
+    "year": 2024,
+    "status": "curl: (28) Operation timed out after 45001 milliseconds with 376892 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KPDX&model=GFS&sts=2024-01-01T00%3A00Z&ets=2024-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KPDX",
+    "year": 2025,
+    "status": "curl: (28) Operation timed out after 45004 milliseconds with 272974 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KPDX&model=GFS&sts=2025-01-01T00%3A00Z&ets=2025-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KORD",
+    "year": 2025,
+    "status": "curl: (28) Operation timed out after 45011 milliseconds with 279956 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KORD&model=GFS&sts=2025-01-01T00%3A00Z&ets=2025-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KMCO",
+    "year": 2025,
+    "status": "curl: (28) Operation timed out after 45007 milliseconds with 408928 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KMCO&model=GFS&sts=2025-01-01T00%3A00Z&ets=2025-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KORD",
+    "year": 2026,
+    "status": "curl: (28) Operation timed out after 45001 milliseconds with 432134 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KORD&model=GFS&sts=2026-01-01T00%3A00Z&ets=2026-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KPDX",
+    "year": 2023,
+    "status": "curl: (22) The requested URL returned error: 429",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KPDX&model=GFS&sts=2023-01-01T00%3A00Z&ets=2023-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KORD",
+    "year": 2024,
+    "status": "curl: (28) Operation timed out after 45010 milliseconds with 359956 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KORD&model=GFS&sts=2024-01-01T00%3A00Z&ets=2024-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KSFO",
+    "year": 2026,
+    "status": "curl: (28) Operation timed out after 45005 milliseconds with 343956 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KSFO&model=GFS&sts=2026-01-01T00%3A00Z&ets=2026-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KRDU",
+    "year": 2025,
+    "status": "curl: (28) Operation timed out after 45004 milliseconds with 432134 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KRDU&model=GFS&sts=2025-01-01T00%3A00Z&ets=2025-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KPDX",
+    "year": 2026,
+    "status": "curl: (28) Operation timed out after 45001 milliseconds with 416134 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KPDX&model=GFS&sts=2026-01-01T00%3A00Z&ets=2026-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KRDU",
+    "year": 2023,
+    "status": "curl: (28) Operation timed out after 45012 milliseconds with 311956 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KRDU&model=GFS&sts=2023-01-01T00%3A00Z&ets=2023-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KRDU",
+    "year": 2024,
+    "status": "curl: (28) Operation timed out after 45012 milliseconds with 272578 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KRDU&model=GFS&sts=2024-01-01T00%3A00Z&ets=2024-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KRDU",
+    "year": 2026,
+    "status": "curl: (28) Operation timed out after 45003 milliseconds with 384134 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KRDU&model=GFS&sts=2026-01-01T00%3A00Z&ets=2026-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KSFO",
+    "year": 2023,
+    "status": "curl: (28) Operation timed out after 45005 milliseconds with 368134 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KSFO&model=GFS&sts=2023-01-01T00%3A00Z&ets=2023-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KSFO",
+    "year": 2024,
+    "status": "curl: (28) Operation timed out after 45010 milliseconds with 440964 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KSFO&model=GFS&sts=2024-01-01T00%3A00Z&ets=2024-12-31T18%3A00Z&format=csv"
+  },
+  {
+    "station": "KSFO",
+    "year": 2025,
+    "status": "curl: (28) Operation timed out after 45010 milliseconds with 393158 bytes received",
+    "bytes": 0,
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/mos.py?station=KSFO&model=GFS&sts=2025-01-01T00%3A00Z&ets=2025-12-31T18%3A00Z&format=csv"
+  }
+]

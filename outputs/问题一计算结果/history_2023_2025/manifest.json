@@ -1,0 +1,352 @@
+{
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "months": [
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04",
+    "2023-05",
+    "2023-06",
+    "2023-07",
+    "2023-08",
+    "2023-09",
+    "2023-10",
+    "2023-11",
+    "2023-12",
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12",
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "airports": [
+    "ATL",
+    "DEN",
+    "DFW",
+    "MCO",
+    "ORD",
+    "PDX",
+    "RDU",
+    "SFO"
+  ],
+  "outcome_threshold_minutes": 60,
+  "on_time_threshold_minutes": 15,
+  "sensitivity_threshold_minutes": [
+    45,
+    60,
+    90
+  ],
+  "curve_max_minutes": 180,
+  "planned_departures": 4943437,
+  "validation": {
+    "month_airport_audits_matched": 288,
+    "pooled_curve_validated": true,
+    "strict_15_and_severe_complement_validated": true
+  },
+  "python": "3.12.10",
+  "pandas": "3.0.3",
+  "numpy": "2.4.6",
+  "matplotlib": "3.11.0",
+  "argv": [
+    "C:\\Users\\zhaozhiyi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "code/问题一/q1_reliability.py",
+    "--years",
+    "2023",
+    "2024",
+    "2025",
+    "--input-dir",
+    "data/analysis/development",
+    "--input-dir",
+    "data/analysis/q3_holdout2025",
+    "--output",
+    "outputs/问题一计算结果/history_2023_2025",
+    "--figures",
+    "figures/问题一计算结果/history_2023_2025"
+  ],
+  "script_sha256": "84242d10a7be97562641b27a92d5147f39cb0743756729047156c816fcab72d8",
+  "inputs": [
+    {
+      "month": "2023-01",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2023-01\\flights.csv.gz",
+      "sha256": "9a7c951473e46fea26a96fe8d0e2e94a30c7641e050f3f8e46690f6622926cb5",
+      "summary_sha256": "365b4205d853ed2db1b34d51c7f22d8c9a0638f98a188f86368947259b39f78d",
+      "audit_manifest_sha256": "289d43e26761bd175600174219ec790191be14407b56b9d91d16536158b95851"
+    },
+    {
+      "month": "2023-02",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2023-02\\flights.csv.gz",
+      "sha256": "cbb14df8c43e3c0b9f50260909ed6fe84f3d0589bd236db50a83010f18cb58fd",
+      "summary_sha256": "5805eda78615308536bb3cec2dcfa73668460c515cc2298cd4197016aeb52b50",
+      "audit_manifest_sha256": "7d1e68c001f602079ed7f30d692961d7c0ee395f1f3bad3bd22c40a65e4c1d91"
+    },
+    {
+      "month": "2023-03",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2023-03\\flights.csv.gz",
+      "sha256": "5d91d6facdf065bfd8926d0221f4ff1dfbd4205ef377442b6c223cd9d8a1f350",
+      "summary_sha256": "08b366495edf07fa050d07c4319a8cefd90d04a727bd640b915a2765680343d6",
+      "audit_manifest_sha256": "69bcc15dad5fe3e53b560173ab871448d9c0d6d0c670d0711cb0246a5762a29d"
+    },
+    {
+      "month": "2023-04",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2023-04\\flights.csv.gz",
+      "sha256": "47a2af33973a322aebd525018ba58350fcfc76e3b9063138c9f77b211d3a5d69",
+      "summary_sha256": "e5f78b595e42b407c180b910f6bd0596b793eddeebad42da929272039af7a2a3",
+      "audit_manifest_sha256": "18c8b59fb3b54af21173b23aa2b70c244a2c4cf003c2773e8ff18121ff0c8d5d"
+    },
+    {
+      "month": "2023-05",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2023-05\\flights.csv.gz",
+      "sha256": "cd5aa90ec7e51733aa87b95910cc91ad8dcc6c4eaac30f36f8ef65cdb3a19197",
+      "summary_sha256": "ee689988499af3180eeba3daade9f69f1f20add0faa96217d8a6e1e3cc9fdf6b",
+      "audit_manifest_sha256": "57710afb6e7ea7d62a442b11b453f5a5129851e8c35c9381d0d7d81e43a63a33"
+    },
+    {
+      "month": "2023-06",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2023-06\\flights.csv.gz",
+      "sha256": "c9b546dd192da35804bceb7814b6efeb8ac95dc812194e3c24b3795017b515ed",
+      "summary_sha256": "c5a98f2fc06d1547f4593436942f9f4350ea5aa969bcbe21568c7fcdfd46849a",
+      "audit_manifest_sha256": "03c36c95fd95bf1f323e78a5da71ff9d0306dd84726e80bb1410639bb572db4c"
+    },
+    {
+      "month": "2023-07",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2023-07\\flights.csv.gz",
+      "sha256": "000ea0fa72915d67a233aaf002a3c44801c448f373cf3856b9fe1e5f17d37a1b",
+      "summary_sha256": "16be4c403764410b501782779c842bc9cc910be005df13e25a82f17a4b6caf69",
+      "audit_manifest_sha256": "e8136b65de753c5d782f1418ab550d057cabfeb65dc3e394b2b97081da427f40"
+    },
+    {
+      "month": "2023-08",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2023-08\\flights.csv.gz",
+      "sha256": "2a3cd92bc09c2dc1dc3e5b15e6d2fdc920cdb2c0d573cb561123d3d4a90a34c2",
+      "summary_sha256": "a08fce56be735cc8d8d5af5a3afba398179d96c98e49328b98a66bad3cc0bd68",
+      "audit_manifest_sha256": "b1ec24a3cc292302623cd5213d0b22d259e9566eac5f02a8ef25b875e7e85cc3"
+    },
+    {
+      "month": "2023-09",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2023-09\\flights.csv.gz",
+      "sha256": "9b05abf735ee2c86c1dad588a1823a67d3a47c2eeccbb04243752bccaf8d77b4",
+      "summary_sha256": "ea6ba3ed0a0b4d4bc7f84665e53daac7211816f8f6f8461d2ac9056e9bbc9f9c",
+      "audit_manifest_sha256": "83639521f0e3dad3deba4f6ddfbe480449c3f5669b74df490ce3541e53d5e173"
+    },
+    {
+      "month": "2023-10",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2023-10\\flights.csv.gz",
+      "sha256": "aed57018211c376df192e336a18f56cff24ceabf590827f9dfe80a4d94eea603",
+      "summary_sha256": "40c5cef9172d2dc6c08727d0931afbc2015e8cc5bb2e2048e030428504b4a984",
+      "audit_manifest_sha256": "9783f6b2b374b22b1bbe808fed9b5e1501c1976ec070c9e338c9a92de6222ba3"
+    },
+    {
+      "month": "2023-11",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2023-11\\flights.csv.gz",
+      "sha256": "c998fd145828675dcfe3e9489b4bdcefa16566205d6ea4c67b964876f2fe39d7",
+      "summary_sha256": "e094ba5027a69e18edde79ab276cb8ccd459be3a19f5dc2027ce5c91d45e2013",
+      "audit_manifest_sha256": "c1d5e693135d7bacb847f7555de4c7554e69023745669211eeb9da42c5543fea"
+    },
+    {
+      "month": "2023-12",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2023-12\\flights.csv.gz",
+      "sha256": "d8186c994e321ab8ed2c29ba142d9116e7cfb8117ffd9192f2d11cb24cf2adea",
+      "summary_sha256": "959228859440f0003d501b2c9839b807c7fed19419ca0f403a96a76b008c8f4d",
+      "audit_manifest_sha256": "d6ebeb19eab479ed82eaf9de6c9db3d3d3d04b39b1babd94ad9d770d468c4707"
+    },
+    {
+      "month": "2024-01",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2024-01\\flights.csv.gz",
+      "sha256": "cbedad52995e00260c6cfe8c8edcf0a0f3a1a2fa583bfd7b7c2e556714368ac2",
+      "summary_sha256": "d2737bc7fe9a0df833d5092f5dbcb2ec570bdc5096b66cc9efa9c2e2cde792b8",
+      "audit_manifest_sha256": "3f755fb69e2b0428c0daf9c900cc45cf1ee81e47b5b1ed71c4e02df764b38538"
+    },
+    {
+      "month": "2024-02",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2024-02\\flights.csv.gz",
+      "sha256": "9605c332fae5309b46864f026048d4ac8f42fe5fbe3a582c4036949d86a568fc",
+      "summary_sha256": "84e3d82e95cbbf4410e5e10907da51c39db7c89706a059d7a5005b3ee19d3fab",
+      "audit_manifest_sha256": "a7f2128894414fef366cb6fbe34b3b65b461c06f75590fc07a45049ec3aed6c6"
+    },
+    {
+      "month": "2024-03",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2024-03\\flights.csv.gz",
+      "sha256": "00b00c29bfedd773d332dbb2c53df453ca589496ed6ac41300298ad672aedea4",
+      "summary_sha256": "630df1d2250aec908e7027c14854b6ab4ef590fefa53c89086b59810d0565396",
+      "audit_manifest_sha256": "7f481a37b6b8375413195a029046ed6b9dc49df8f409270965e2428ffea75258"
+    },
+    {
+      "month": "2024-04",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2024-04\\flights.csv.gz",
+      "sha256": "57624f5a3c7540b8c24fdf99724892cd863a887295106d1bf225a22eb0972d3c",
+      "summary_sha256": "279d8edc27e6607a4c1f5af22ce720666bdfe12725645fed3e2d6c05781f81b1",
+      "audit_manifest_sha256": "87b0a7e7f833a729072f587f97ae2d9f9b507152963e420ad6abfa4dd01572bf"
+    },
+    {
+      "month": "2024-05",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2024-05\\flights.csv.gz",
+      "sha256": "6484edadecea4bc3ee3e0d88f8bc26e622b57ec01eb5ad1a7cd230af71f896ac",
+      "summary_sha256": "2f90b8226f29c60566937c52630258817345b95b6a3fe509b91fd1a77b7461fc",
+      "audit_manifest_sha256": "c1d021a1c5e0a1f7f650d07258b24898063969bad86084b9ac1dbf7a3cbb39b3"
+    },
+    {
+      "month": "2024-06",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2024-06\\flights.csv.gz",
+      "sha256": "3cb10db60f243f1dd430626679ede7a03b6434833b16eb6ec1f0bd709ee8e590",
+      "summary_sha256": "05ffcd1454d2e778063eee1f13e0e7c0f99e7fda5c5544f2283fc9d3a8549395",
+      "audit_manifest_sha256": "770c83c2770f2e07d23f7b419a110575efed677464753bed1373437eb457b2a2"
+    },
+    {
+      "month": "2024-07",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2024-07\\flights.csv.gz",
+      "sha256": "44c0e5f95a1413e6522cf8bb2a9d0ad1876da9e0c92a06693fb550aa5afc9cee",
+      "summary_sha256": "565ee55f8f89a99f1932ca107863c2d4be49c5622051a98a07f7bcf065ba79d5",
+      "audit_manifest_sha256": "2a0b5ffca5a4da61177f5874187e5d69fab711113c2195223d0dd97dd0c22214"
+    },
+    {
+      "month": "2024-08",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2024-08\\flights.csv.gz",
+      "sha256": "616bedeee7a41f32d0320726a45bc2d93019cf2b65d0255de2a8034b1cab848f",
+      "summary_sha256": "98d71e19f824684ffb6ed0a4007a842582708ed7a8c82175ab00e4587d7493e3",
+      "audit_manifest_sha256": "2717dd3be8628d9ed08d3e6bfd57e6c9655b1d468167d5e5d36d8568db1e50da"
+    },
+    {
+      "month": "2024-09",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2024-09\\flights.csv.gz",
+      "sha256": "40c6d8d4b0bbf4b6d550f051faae383bda496916f7f507433fec362aac5ac403",
+      "summary_sha256": "0996cebfc4a0e46c81cf08d4203da53050e49ef7aab7cc972ad369fea6c2330c",
+      "audit_manifest_sha256": "38c0f127df1619c9d313a9d4c513bba4fedbb678fbf63cb53f80a22d6b753172"
+    },
+    {
+      "month": "2024-10",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2024-10\\flights.csv.gz",
+      "sha256": "c72f1ba7ce64e22af3645200286f8a71d67728b89dee8ad88a516ff0eacf2cd1",
+      "summary_sha256": "dacd1bbfebb97f9da76df533604b255c03188c3a7fa0faa73b76e6bfadaf7358",
+      "audit_manifest_sha256": "21128280763281fd1af3357bb0ec9a7a1a64bb22e57fb0268f9e663822c29379"
+    },
+    {
+      "month": "2024-11",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2024-11\\flights.csv.gz",
+      "sha256": "9ea940229d808c5ad01e331341cec160f370c6528ec9f18099c0e1cbf7054b93",
+      "summary_sha256": "c41652f70d758ca6418a623bcf9fe936e4f3e8573bd9102a87e914f2165685a3",
+      "audit_manifest_sha256": "5973dfd7f76b1d98aac14c160ef85bff71977c414e7511cb5f0a66f790e950a3"
+    },
+    {
+      "month": "2024-12",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\development\\2024-12\\flights.csv.gz",
+      "sha256": "32616426781c3441fdff007b257ce4d852495c2ae5d8fe24c4df23a3300a05f1",
+      "summary_sha256": "bf385ba0928ee8421a5276cb1691d26474733a946c56d3ccbba6e70bc869fa5b",
+      "audit_manifest_sha256": "b54742400df9aa5e1b6f10a8bd8c2d1ba5ab2e564cf9dd40009256da065065ff"
+    },
+    {
+      "month": "2025-01",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\q3_holdout2025\\2025-01\\flights.csv.gz",
+      "sha256": "c0fbc47774ec3c7d82cfcbac3217ba9b475ad1c5dcd2940ac68412acab1c032a",
+      "summary_sha256": "b92f69ac9ca631fa49b76393260d72a315938fddd5c80742db6ddc9004741e51",
+      "audit_manifest_sha256": "0805e6205486a9ca74049a4e72367f19fe7575f2beb172f02ea3e4b36718a832"
+    },
+    {
+      "month": "2025-02",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\q3_holdout2025\\2025-02\\flights.csv.gz",
+      "sha256": "928a315baab83d5e8c6f1a6ee2f52f7b53abc601cb3c67955d4783525b7760a5",
+      "summary_sha256": "0d564ece4738332c7471e2e475c0d00297091fecadfc9713ff62691597420302",
+      "audit_manifest_sha256": "3ad98d14cef5a8fcd466afe4ca0d78ff84bb88be5bcc76b3090d91ed63bc36b9"
+    },
+    {
+      "month": "2025-03",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\q3_holdout2025\\2025-03\\flights.csv.gz",
+      "sha256": "7001eaaa117184c447d1cf7246b48eecf9dea51783f3f0143abc82888dbd8f39",
+      "summary_sha256": "1821eb71599ab88b45163001ee090c12d2b0a2c2212a6adab47a5298b75601d1",
+      "audit_manifest_sha256": "eb45d73d90b09ac66693be9e40b59e3e9fa3ecca6f7f942e85315fde150da2e7"
+    },
+    {
+      "month": "2025-04",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\q3_holdout2025\\2025-04\\flights.csv.gz",
+      "sha256": "830250cc68652d97689e55ffc886b3e0c335c206c49c6e46105fd614ebcfbb29",
+      "summary_sha256": "039d3273fa69aae1945ba373f426054cf09a66faf0acf4b42a593df13f8764ab",
+      "audit_manifest_sha256": "f991f5cd045620301cceb220e83fafa8fc2df3aeba38dbbd3a443e32f6c7664c"
+    },
+    {
+      "month": "2025-05",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\q3_holdout2025\\2025-05\\flights.csv.gz",
+      "sha256": "9c0433b111942da184258c77f623a87a9fb450a353d57d68662d75836ce4f516",
+      "summary_sha256": "03b8055e1393f2004fbd41a78cc4a8e76d551cae35400c4815ad8d9c8f9929fa",
+      "audit_manifest_sha256": "312f60b81822140627f5dc5ec623dafac23c86a066c3e1f1181bb1e316eeee6e"
+    },
+    {
+      "month": "2025-06",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\q3_holdout2025\\2025-06\\flights.csv.gz",
+      "sha256": "6c49e90a56cf6ba766c591a7b911b27b5d67bba6885152a7d2278b17fd82e86d",
+      "summary_sha256": "8f258693528387697bc98263d8f02888d00c1d9e146e4a8bacdcfdfc2329dfdb",
+      "audit_manifest_sha256": "e2fed328982e3d7bacb23e0eb02b8c98abfb5ac34dfa6497f8f8a76c8c7363dd"
+    },
+    {
+      "month": "2025-07",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\q3_holdout2025\\2025-07\\flights.csv.gz",
+      "sha256": "10028cbfa7085f2f1645a3788fa0eb4885ff41a81d1cae141a6e40684fa6e554",
+      "summary_sha256": "59a7b886d24603476c0fea4e421a3c1ac898ad356a9cdb9ff7ac1dad13653002",
+      "audit_manifest_sha256": "6621130ffb39ec25cd5e632505ba1bd2dfb748628f30332637ed9352183fab94"
+    },
+    {
+      "month": "2025-08",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\q3_holdout2025\\2025-08\\flights.csv.gz",
+      "sha256": "dcc6c7acfafc52532d8990f026e276199c916bb6aa97e250538e6d1f55ca3394",
+      "summary_sha256": "264e1807127779304c35a78f9a9e1bd2a339316c6999f27abc4628959065768a",
+      "audit_manifest_sha256": "f4589220c0f1ed0808ffbe8fc9521109f01e3d03d32ceb7dac2b41a583985604"
+    },
+    {
+      "month": "2025-09",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\q3_holdout2025\\2025-09\\flights.csv.gz",
+      "sha256": "a6d104fafb73b7d938a3d161f914b99ef55bc6410a5931441b8aed6cd08deac6",
+      "summary_sha256": "3fc8b95c80fb32e7282a48cecda54e8a0e738140299d41c00ceb380b0cf45c7d",
+      "audit_manifest_sha256": "ec4df8b5439467b7a5192efe17d6737eb216fa11d9c0190a16510c6bc86a01e2"
+    },
+    {
+      "month": "2025-10",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\q3_holdout2025\\2025-10\\flights.csv.gz",
+      "sha256": "3e536ca581a70ae338eeda2cae01cdaad879c2e937ca106f3641826babbb3ad9",
+      "summary_sha256": "853df6dbe4684e711a1e540be011f4ed697d7b9c3f2d5f2c7c03972b9c0547e2",
+      "audit_manifest_sha256": "e934f2b14b26969d604b8e61fa8f08f9677b2a876cf78fce6f64a371ec0a2bde"
+    },
+    {
+      "month": "2025-11",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\q3_holdout2025\\2025-11\\flights.csv.gz",
+      "sha256": "34901cc472ead663b9023375f59a881ce6e6deffbf35e7904e197008d3e0cb45",
+      "summary_sha256": "ce29a3e7409513b0e38fcae3ef65a2d6f15e03f17728bc5d5c873ef5d85574e6",
+      "audit_manifest_sha256": "19e938599b55f59c529e8e4089bf83ed8f6a23147df6e719e89ceacf0fedc9ea"
+    },
+    {
+      "month": "2025-12",
+      "flight_file": "C:\\Users\\zhaozhiyi\\Desktop\\美赛第一题\\data\\analysis\\q3_holdout2025\\2025-12\\flights.csv.gz",
+      "sha256": "072414f33e755c7dea71fa326105940cd4d9fbd0f850beec537f15a68143eec9",
+      "summary_sha256": "8dff361a59e4382332bb6b7643a9b221f9348756cb0635b34799227ceec2c9ce",
+      "audit_manifest_sha256": "e62080019f0095b265cb4ea11027d5ead4a5d6df40de4f283ef0dca02e1bc4e0"
+    }
+  ],
+  "outputs": {
+    "airport_metrics.csv": "d0b3186bcec6688453a6637d5137392563ed384e297189ac0f7df4c5ce4ff7cd",
+    "definition_comparison.csv": "5e0e9e6b92812d8a7fdd9cd70f3b8bc4a5ef6b9b554f8b043aca62b765d1abfb",
+    "monthly_metrics.csv": "dfbd543dce545074da8e39babbb72f58682533e30b07795e2e3d6d0049ae305e",
+    "reliability_curves.csv": "442062871b1f477546cd01ad1cab382c483153d3648919a2c7e666e8ac817a66",
+    "reliability_curves.pdf": "e1007f5c84a8a8c7d7e6e716538a513c515905794b2a17acb2107da1e8569321",
+    "reliability_curves.png": "dd1143cd73e842342b2926787952bdf2d56f7bd11fcf9664139edf911eea1c96"
+  }
+}

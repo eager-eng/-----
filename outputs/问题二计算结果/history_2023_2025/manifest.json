@@ -1,0 +1,286 @@
+{
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "bootstrap_reps": 1000,
+  "block_days": 7,
+  "seed": 2026,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "pandas": "3.0.3",
+  "numpy": "2.4.6",
+  "checks": {
+    "q1_equal_airports": 8,
+    "q1_equal_airport_months": 288,
+    "kitagawa_pair_identities": 112,
+    "days": 1096,
+    "outbound": 4943437,
+    "inbound": 4943270,
+    "shared": 656893,
+    "outbound_only": 4286544,
+    "inbound_only": 4286377,
+    "carriers": [
+      "AA",
+      "AS",
+      "DL",
+      "F9",
+      "UA"
+    ],
+    "carrier_joint_cells": 616,
+    "common_destination_cells": 24,
+    "destination_season_time_cells": 230,
+    "destination_season_time_band_cells": 0,
+    "carrier_destination_joint_cells": 0,
+    "min_rank_family_bootstrap_valid": 1000,
+    "min_pattern_family_bootstrap_valid": 1000,
+    "unknown_by_airport": {
+      "DEN": 5,
+      "ORD": 1
+    }
+  },
+  "inputs": [
+    {
+      "month": "2023-01",
+      "file": "data\\analysis\\development\\2023-01\\flights.csv.gz",
+      "sha256": "9a7c951473e46fea26a96fe8d0e2e94a30c7641e050f3f8e46690f6622926cb5",
+      "audit_manifest_sha256": "289d43e26761bd175600174219ec790191be14407b56b9d91d16536158b95851"
+    },
+    {
+      "month": "2023-02",
+      "file": "data\\analysis\\development\\2023-02\\flights.csv.gz",
+      "sha256": "cbb14df8c43e3c0b9f50260909ed6fe84f3d0589bd236db50a83010f18cb58fd",
+      "audit_manifest_sha256": "7d1e68c001f602079ed7f30d692961d7c0ee395f1f3bad3bd22c40a65e4c1d91"
+    },
+    {
+      "month": "2023-03",
+      "file": "data\\analysis\\development\\2023-03\\flights.csv.gz",
+      "sha256": "5d91d6facdf065bfd8926d0221f4ff1dfbd4205ef377442b6c223cd9d8a1f350",
+      "audit_manifest_sha256": "69bcc15dad5fe3e53b560173ab871448d9c0d6d0c670d0711cb0246a5762a29d"
+    },
+    {
+      "month": "2023-04",
+      "file": "data\\analysis\\development\\2023-04\\flights.csv.gz",
+      "sha256": "47a2af33973a322aebd525018ba58350fcfc76e3b9063138c9f77b211d3a5d69",
+      "audit_manifest_sha256": "18c8b59fb3b54af21173b23aa2b70c244a2c4cf003c2773e8ff18121ff0c8d5d"
+    },
+    {
+      "month": "2023-05",
+      "file": "data\\analysis\\development\\2023-05\\flights.csv.gz",
+      "sha256": "cd5aa90ec7e51733aa87b95910cc91ad8dcc6c4eaac30f36f8ef65cdb3a19197",
+      "audit_manifest_sha256": "57710afb6e7ea7d62a442b11b453f5a5129851e8c35c9381d0d7d81e43a63a33"
+    },
+    {
+      "month": "2023-06",
+      "file": "data\\analysis\\development\\2023-06\\flights.csv.gz",
+      "sha256": "c9b546dd192da35804bceb7814b6efeb8ac95dc812194e3c24b3795017b515ed",
+      "audit_manifest_sha256": "03c36c95fd95bf1f323e78a5da71ff9d0306dd84726e80bb1410639bb572db4c"
+    },
+    {
+      "month": "2023-07",
+      "file": "data\\analysis\\development\\2023-07\\flights.csv.gz",
+      "sha256": "000ea0fa72915d67a233aaf002a3c44801c448f373cf3856b9fe1e5f17d37a1b",
+      "audit_manifest_sha256": "e8136b65de753c5d782f1418ab550d057cabfeb65dc3e394b2b97081da427f40"
+    },
+    {
+      "month": "2023-08",
+      "file": "data\\analysis\\development\\2023-08\\flights.csv.gz",
+      "sha256": "2a3cd92bc09c2dc1dc3e5b15e6d2fdc920cdb2c0d573cb561123d3d4a90a34c2",
+      "audit_manifest_sha256": "b1ec24a3cc292302623cd5213d0b22d259e9566eac5f02a8ef25b875e7e85cc3"
+    },
+    {
+      "month": "2023-09",
+      "file": "data\\analysis\\development\\2023-09\\flights.csv.gz",
+      "sha256": "9b05abf735ee2c86c1dad588a1823a67d3a47c2eeccbb04243752bccaf8d77b4",
+      "audit_manifest_sha256": "83639521f0e3dad3deba4f6ddfbe480449c3f5669b74df490ce3541e53d5e173"
+    },
+    {
+      "month": "2023-10",
+      "file": "data\\analysis\\development\\2023-10\\flights.csv.gz",
+      "sha256": "aed57018211c376df192e336a18f56cff24ceabf590827f9dfe80a4d94eea603",
+      "audit_manifest_sha256": "9783f6b2b374b22b1bbe808fed9b5e1501c1976ec070c9e338c9a92de6222ba3"
+    },
+    {
+      "month": "2023-11",
+      "file": "data\\analysis\\development\\2023-11\\flights.csv.gz",
+      "sha256": "c998fd145828675dcfe3e9489b4bdcefa16566205d6ea4c67b964876f2fe39d7",
+      "audit_manifest_sha256": "c1d5e693135d7bacb847f7555de4c7554e69023745669211eeb9da42c5543fea"
+    },
+    {
+      "month": "2023-12",
+      "file": "data\\analysis\\development\\2023-12\\flights.csv.gz",
+      "sha256": "d8186c994e321ab8ed2c29ba142d9116e7cfb8117ffd9192f2d11cb24cf2adea",
+      "audit_manifest_sha256": "d6ebeb19eab479ed82eaf9de6c9db3d3d3d04b39b1babd94ad9d770d468c4707"
+    },
+    {
+      "month": "2024-01",
+      "file": "data\\analysis\\development\\2024-01\\flights.csv.gz",
+      "sha256": "cbedad52995e00260c6cfe8c8edcf0a0f3a1a2fa583bfd7b7c2e556714368ac2",
+      "audit_manifest_sha256": "3f755fb69e2b0428c0daf9c900cc45cf1ee81e47b5b1ed71c4e02df764b38538"
+    },
+    {
+      "month": "2024-02",
+      "file": "data\\analysis\\development\\2024-02\\flights.csv.gz",
+      "sha256": "9605c332fae5309b46864f026048d4ac8f42fe5fbe3a582c4036949d86a568fc",
+      "audit_manifest_sha256": "a7f2128894414fef366cb6fbe34b3b65b461c06f75590fc07a45049ec3aed6c6"
+    },
+    {
+      "month": "2024-03",
+      "file": "data\\analysis\\development\\2024-03\\flights.csv.gz",
+      "sha256": "00b00c29bfedd773d332dbb2c53df453ca589496ed6ac41300298ad672aedea4",
+      "audit_manifest_sha256": "7f481a37b6b8375413195a029046ed6b9dc49df8f409270965e2428ffea75258"
+    },
+    {
+      "month": "2024-04",
+      "file": "data\\analysis\\development\\2024-04\\flights.csv.gz",
+      "sha256": "57624f5a3c7540b8c24fdf99724892cd863a887295106d1bf225a22eb0972d3c",
+      "audit_manifest_sha256": "87b0a7e7f833a729072f587f97ae2d9f9b507152963e420ad6abfa4dd01572bf"
+    },
+    {
+      "month": "2024-05",
+      "file": "data\\analysis\\development\\2024-05\\flights.csv.gz",
+      "sha256": "6484edadecea4bc3ee3e0d88f8bc26e622b57ec01eb5ad1a7cd230af71f896ac",
+      "audit_manifest_sha256": "c1d021a1c5e0a1f7f650d07258b24898063969bad86084b9ac1dbf7a3cbb39b3"
+    },
+    {
+      "month": "2024-06",
+      "file": "data\\analysis\\development\\2024-06\\flights.csv.gz",
+      "sha256": "3cb10db60f243f1dd430626679ede7a03b6434833b16eb6ec1f0bd709ee8e590",
+      "audit_manifest_sha256": "770c83c2770f2e07d23f7b419a110575efed677464753bed1373437eb457b2a2"
+    },
+    {
+      "month": "2024-07",
+      "file": "data\\analysis\\development\\2024-07\\flights.csv.gz",
+      "sha256": "44c0e5f95a1413e6522cf8bb2a9d0ad1876da9e0c92a06693fb550aa5afc9cee",
+      "audit_manifest_sha256": "2a0b5ffca5a4da61177f5874187e5d69fab711113c2195223d0dd97dd0c22214"
+    },
+    {
+      "month": "2024-08",
+      "file": "data\\analysis\\development\\2024-08\\flights.csv.gz",
+      "sha256": "616bedeee7a41f32d0320726a45bc2d93019cf2b65d0255de2a8034b1cab848f",
+      "audit_manifest_sha256": "2717dd3be8628d9ed08d3e6bfd57e6c9655b1d468167d5e5d36d8568db1e50da"
+    },
+    {
+      "month": "2024-09",
+      "file": "data\\analysis\\development\\2024-09\\flights.csv.gz",
+      "sha256": "40c6d8d4b0bbf4b6d550f051faae383bda496916f7f507433fec362aac5ac403",
+      "audit_manifest_sha256": "38c0f127df1619c9d313a9d4c513bba4fedbb678fbf63cb53f80a22d6b753172"
+    },
+    {
+      "month": "2024-10",
+      "file": "data\\analysis\\development\\2024-10\\flights.csv.gz",
+      "sha256": "c72f1ba7ce64e22af3645200286f8a71d67728b89dee8ad88a516ff0eacf2cd1",
+      "audit_manifest_sha256": "21128280763281fd1af3357bb0ec9a7a1a64bb22e57fb0268f9e663822c29379"
+    },
+    {
+      "month": "2024-11",
+      "file": "data\\analysis\\development\\2024-11\\flights.csv.gz",
+      "sha256": "9ea940229d808c5ad01e331341cec160f370c6528ec9f18099c0e1cbf7054b93",
+      "audit_manifest_sha256": "5973dfd7f76b1d98aac14c160ef85bff71977c414e7511cb5f0a66f790e950a3"
+    },
+    {
+      "month": "2024-12",
+      "file": "data\\analysis\\development\\2024-12\\flights.csv.gz",
+      "sha256": "32616426781c3441fdff007b257ce4d852495c2ae5d8fe24c4df23a3300a05f1",
+      "audit_manifest_sha256": "b54742400df9aa5e1b6f10a8bd8c2d1ba5ab2e564cf9dd40009256da065065ff"
+    },
+    {
+      "month": "2025-01",
+      "file": "data\\analysis\\q3_holdout2025\\2025-01\\flights.csv.gz",
+      "sha256": "c0fbc47774ec3c7d82cfcbac3217ba9b475ad1c5dcd2940ac68412acab1c032a",
+      "audit_manifest_sha256": "0805e6205486a9ca74049a4e72367f19fe7575f2beb172f02ea3e4b36718a832"
+    },
+    {
+      "month": "2025-02",
+      "file": "data\\analysis\\q3_holdout2025\\2025-02\\flights.csv.gz",
+      "sha256": "928a315baab83d5e8c6f1a6ee2f52f7b53abc601cb3c67955d4783525b7760a5",
+      "audit_manifest_sha256": "3ad98d14cef5a8fcd466afe4ca0d78ff84bb88be5bcc76b3090d91ed63bc36b9"
+    },
+    {
+      "month": "2025-03",
+      "file": "data\\analysis\\q3_holdout2025\\2025-03\\flights.csv.gz",
+      "sha256": "7001eaaa117184c447d1cf7246b48eecf9dea51783f3f0143abc82888dbd8f39",
+      "audit_manifest_sha256": "eb45d73d90b09ac66693be9e40b59e3e9fa3ecca6f7f942e85315fde150da2e7"
+    },
+    {
+      "month": "2025-04",
+      "file": "data\\analysis\\q3_holdout2025\\2025-04\\flights.csv.gz",
+      "sha256": "830250cc68652d97689e55ffc886b3e0c335c206c49c6e46105fd614ebcfbb29",
+      "audit_manifest_sha256": "f991f5cd045620301cceb220e83fafa8fc2df3aeba38dbbd3a443e32f6c7664c"
+    },
+    {
+      "month": "2025-05",
+      "file": "data\\analysis\\q3_holdout2025\\2025-05\\flights.csv.gz",
+      "sha256": "9c0433b111942da184258c77f623a87a9fb450a353d57d68662d75836ce4f516",
+      "audit_manifest_sha256": "312f60b81822140627f5dc5ec623dafac23c86a066c3e1f1181bb1e316eeee6e"
+    },
+    {
+      "month": "2025-06",
+      "file": "data\\analysis\\q3_holdout2025\\2025-06\\flights.csv.gz",
+      "sha256": "6c49e90a56cf6ba766c591a7b911b27b5d67bba6885152a7d2278b17fd82e86d",
+      "audit_manifest_sha256": "e2fed328982e3d7bacb23e0eb02b8c98abfb5ac34dfa6497f8f8a76c8c7363dd"
+    },
+    {
+      "month": "2025-07",
+      "file": "data\\analysis\\q3_holdout2025\\2025-07\\flights.csv.gz",
+      "sha256": "10028cbfa7085f2f1645a3788fa0eb4885ff41a81d1cae141a6e40684fa6e554",
+      "audit_manifest_sha256": "6621130ffb39ec25cd5e632505ba1bd2dfb748628f30332637ed9352183fab94"
+    },
+    {
+      "month": "2025-08",
+      "file": "data\\analysis\\q3_holdout2025\\2025-08\\flights.csv.gz",
+      "sha256": "dcc6c7acfafc52532d8990f026e276199c916bb6aa97e250538e6d1f55ca3394",
+      "audit_manifest_sha256": "f4589220c0f1ed0808ffbe8fc9521109f01e3d03d32ceb7dac2b41a583985604"
+    },
+    {
+      "month": "2025-09",
+      "file": "data\\analysis\\q3_holdout2025\\2025-09\\flights.csv.gz",
+      "sha256": "a6d104fafb73b7d938a3d161f914b99ef55bc6410a5931441b8aed6cd08deac6",
+      "audit_manifest_sha256": "ec4df8b5439467b7a5192efe17d6737eb216fa11d9c0190a16510c6bc86a01e2"
+    },
+    {
+      "month": "2025-10",
+      "file": "data\\analysis\\q3_holdout2025\\2025-10\\flights.csv.gz",
+      "sha256": "3e536ca581a70ae338eeda2cae01cdaad879c2e937ca106f3641826babbb3ad9",
+      "audit_manifest_sha256": "e934f2b14b26969d604b8e61fa8f08f9677b2a876cf78fce6f64a371ec0a2bde"
+    },
+    {
+      "month": "2025-11",
+      "file": "data\\analysis\\q3_holdout2025\\2025-11\\flights.csv.gz",
+      "sha256": "34901cc472ead663b9023375f59a881ce6e6deffbf35e7904e197008d3e0cb45",
+      "audit_manifest_sha256": "19e938599b55f59c529e8e4089bf83ed8f6a23147df6e719e89ceacf0fedc9ea"
+    },
+    {
+      "month": "2025-12",
+      "file": "data\\analysis\\q3_holdout2025\\2025-12\\flights.csv.gz",
+      "sha256": "072414f33e755c7dea71fa326105940cd4d9fbd0f850beec537f15a68143eec9",
+      "audit_manifest_sha256": "e62080019f0095b265cb4ea11027d5ead4a5d6df40de4f283ef0dca02e1bc4e0"
+    }
+  ],
+  "script_sha256": {
+    "q2_mix_and_rankings.py": "64bf292bf4af752232a35967b397bd2915c5eea1e45bbbdb2a518b274d5881c2",
+    "q2_figures.py": "e6be4e377db3cf0d7c65cbef8a69322270be871b2315dccc1e38bd4e25fc5154"
+  },
+  "outputs": {
+    "airport_adjustment.csv": "41d8a273aef52f6d41d5a921eb801c957ae4eadf73cc34c40738d4847ca2f38b",
+    "pairwise_inference.csv": "725e17279e9288f0ce3cbc8edc5e6f20b38aefe54521f9a93ceec6937b681d68",
+    "rank_sets.csv": "97abe89ede3070c5d2e9298228e04716d63ebdbbb8210a376fdcb180b35b3a21",
+    "kitagawa.csv": "6f5a80781056376024cc7da2ee84de4d6258de4312d91b9da50444e6ed49751d",
+    "four_dimensions.csv": "f26e2e8a4df3bfcf51031a134886017b18cd5f0ff1ebec66c086bd0e373c9c8e",
+    "daily_rates.csv": "36f2a7e15bc7295820a5d638e6f1ba7ed71a31438bb9b23a218475cb168d8274",
+    "monthly_rates.csv": "c0d085b7d220699243570900e645f53c9a6ff15f4c55579a4b955eb3ddceac90",
+    "variation.csv": "a040ba6d3c5bde899b126aa534eb3a7d6d2301289e6a36f323b31038eaec596d",
+    "specialties.csv": "a497cdcf194b0a0b6081f46c26c45ce4e85c778fd19d44e1b86e978f5a329438",
+    "support_audit.csv": "dfa29c8ab78749af144a9e030aa45f5fa0d4c144f65bf9a03db0c00256878816",
+    "unknown_bounds.csv": "f65c4e14278b4bc184f2e31d9cbab0986e92b7924a24dc991d4ba07dae183104",
+    "sfo_atl_profiles.csv": "66f472b051473cb1d20a17d7653bab64366bd6277a2ef78d53f11335e43d37ea",
+    "sfo_atl_inference.csv": "9f48d3394fc27cd2509974ed24b07e4e5ee920fb1648ab7b0843af7848d4285c",
+    "sfo_atl_reporting.csv": "492e88a0959439fb95fc27c405a73510b1f4b8e906e1f253aed9ad2703c25999"
+  },
+  "figures": {
+    "rank_adjustment_intervals.pdf": "96c2276f6f4e41c926750a175af8dcd46323a52514c3d13692bc61bd20dda0fb",
+    "rank_adjustment_intervals.png": "b40837cf2ad4361d9ae200a44f55dda797461e36b6a455df2bdb6d79528764b7",
+    "seasonal_variation_and_reversal.pdf": "3850610723f50b0af9148163d74240956472ab3a73b34bd4e9f3244ec210fd91",
+    "seasonal_variation_and_reversal.png": "19711ad914b2a83c80e3ddaa68b65acb256a00ceb732ce8966367a53d587af9c"
+  }
+}

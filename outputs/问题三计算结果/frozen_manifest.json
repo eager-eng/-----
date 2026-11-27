@@ -1,0 +1,85 @@
+{
+  "input_months": {
+    "2023-01": "289d43e26761bd175600174219ec790191be14407b56b9d91d16536158b95851",
+    "2023-02": "7d1e68c001f602079ed7f30d692961d7c0ee395f1f3bad3bd22c40a65e4c1d91",
+    "2023-03": "69bcc15dad5fe3e53b560173ab871448d9c0d6d0c670d0711cb0246a5762a29d",
+    "2023-04": "18c8b59fb3b54af21173b23aa2b70c244a2c4cf003c2773e8ff18121ff0c8d5d",
+    "2023-05": "57710afb6e7ea7d62a442b11b453f5a5129851e8c35c9381d0d7d81e43a63a33",
+    "2023-06": "03c36c95fd95bf1f323e78a5da71ff9d0306dd84726e80bb1410639bb572db4c",
+    "2023-07": "e8136b65de753c5d782f1418ab550d057cabfeb65dc3e394b2b97081da427f40",
+    "2023-08": "b1ec24a3cc292302623cd5213d0b22d259e9566eac5f02a8ef25b875e7e85cc3",
+    "2023-09": "83639521f0e3dad3deba4f6ddfbe480449c3f5669b74df490ce3541e53d5e173",
+    "2023-10": "9783f6b2b374b22b1bbe808fed9b5e1501c1976ec070c9e338c9a92de6222ba3",
+    "2023-11": "c1d5e693135d7bacb847f7555de4c7554e69023745669211eeb9da42c5543fea",
+    "2023-12": "d6ebeb19eab479ed82eaf9de6c9db3d3d3d04b39b1babd94ad9d770d468c4707",
+    "2024-01": "3f755fb69e2b0428c0daf9c900cc45cf1ee81e47b5b1ed71c4e02df764b38538",
+    "2024-02": "a7f2128894414fef366cb6fbe34b3b65b461c06f75590fc07a45049ec3aed6c6",
+    "2024-03": "7f481a37b6b8375413195a029046ed6b9dc49df8f409270965e2428ffea75258",
+    "2024-04": "87b0a7e7f833a729072f587f97ae2d9f9b507152963e420ad6abfa4dd01572bf",
+    "2024-05": "c1d021a1c5e0a1f7f650d07258b24898063969bad86084b9ac1dbf7a3cbb39b3",
+    "2024-06": "770c83c2770f2e07d23f7b419a110575efed677464753bed1373437eb457b2a2",
+    "2024-07": "2a0b5ffca5a4da61177f5874187e5d69fab711113c2195223d0dd97dd0c22214",
+    "2024-08": "2717dd3be8628d9ed08d3e6bfd57e6c9655b1d468167d5e5d36d8568db1e50da",
+    "2024-09": "38c0f127df1619c9d313a9d4c513bba4fedbb678fbf63cb53f80a22d6b753172"
+  },
+  "earliest_model_utc": "2024-12-31 00:00:00+00:00",
+  "last_fit_label_month": "2024-09",
+  "fit_n": 2827210,
+  "model": "chain_tree",
+  "versions": [
+    "A",
+    "B"
+  ],
+  "primary_info": "A",
+  "engines": {
+    "A": "lightgbm",
+    "B": "lightgbm"
+  },
+  "convergence_warnings": {
+    "A": 0,
+    "B": 0
+  },
+  "calibration": {
+    "A": 1.1674293397230313,
+    "B": 1.1456553453439462
+  },
+  "diversion": {
+    "A": "tree",
+    "B": "tree"
+  },
+  "weather_status": "coverage spans development folds",
+  "weather_source": "open_meteo",
+  "weather_availability_proxy_hours": 6,
+  "release_calendar_sha256": "eacedf1ad397e07ce68dec59e031d1207b02bd402fdd8c8dc42d20ec3be9b12b",
+  "airport_metadata_sha256": "9387cdb38df5bd664da823f8ccb69fdd9b33a1888f5b7cca09c34a3cd9ff59f9",
+  "archive_hashes": {
+    "ATL_2023.csv.gz": "e48ae89b933e2115ed89c93af801f05258e495b8fc894af0904fd0bb925c083f",
+    "ATL_2024.csv.gz": "2acaeffa8b29ebad03cb15b7a7b8c9da40cc59d7ce36c5d961e0b25aeb142c27",
+    "DEN_2023.csv.gz": "22483e6820ba5ed3b2b2fdd915badb66abf16576e2a2ac037e3165629a6cf1bc",
+    "DEN_2024.csv.gz": "a5d2fdd5092254bb781502451b69c27e7e8d028922e56738e760c9dcfa3abdfa",
+    "DFW_2023.csv.gz": "80df5146aa8b9858efb269dbeeb6a985a9ba85df410045b4e5ec5ba85d122a27",
+    "DFW_2024.csv.gz": "80b7fa2cf2fb6066fd5981e5d580bdd6ffa4382e4f3501963bd236095ea17ce1",
+    "MCO_2023.csv.gz": "796c678368daea9a2f69cbaf25d53f1c7de71f3ae9470429486413b539a1aff1",
+    "MCO_2024.csv.gz": "8abdd60ac00c2b100d4e88f22c85e9ee1e1597853cc1d7e4860a7d995d070cea",
+    "ORD_2023.csv.gz": "039632112577bdb1b87f60d2f69adc5e63fed20b9711bf87f8566ef06023e749",
+    "ORD_2024.csv.gz": "7991be9967489041fe9f627f9c3e2f83a1eaa8c047f9f215d662fa9ef4280410",
+    "PDX_2023.csv.gz": "1e8daa17dc005c9c12cabc7bd97e88d5c7c0d12b8c84c475adb4772493ec73fc",
+    "PDX_2024.csv.gz": "17a7772bbaba9df5acb07d0e144c552d94268ccea97c2d8dba273d5b0411b861",
+    "RDU_2023.csv.gz": "b1dbd334f160e87ee59193f7c7c6eea72f4fe9d840df186cf8b25d6ecd733a96",
+    "RDU_2024.csv.gz": "bdb721bc6007fdb68c04afac41344e99de81768ba4104fc3ebbb0f3bb6643ad4",
+    "SFO_2023.csv.gz": "efb239dd75ef6e64bfd11379409811688b38d83dfe0ed4d9863cdd2046b60464",
+    "SFO_2024.csv.gz": "962fd5ddff45011d9b2b1d1e70364434e8916d98f81b71c282acdf8abbd7ed9d"
+  },
+  "model_file": "year_start_frozen.joblib",
+  "model_sha256": "bc778346328837c5fa969913a38f892031ec2d277c2f38b1842493a2aebd79e2",
+  "scripts": {
+    "q3_acquire.py": "5ef11d86bee07196cb953e2463c181f668d62bdb7115572aed5ad708f8468a00",
+    "q3_figures.py": "e1f9f7ca30890054e889c3d4e66cdbb8055509278472ec9f49edccb05bd925b3",
+    "q3_inputs.py": "31833eeff9e05b8858681f517ab4bcf1a13c4c6413ea33855522ab8b7e7c7559",
+    "q3_models.py": "c62b564f077cce8451cdb588a570525fc4a060633a459843ffb06c8cfc32a8a0",
+    "q3_open_meteo.py": "22a8da297d8166853207970d6488c7458cec13e3147bb09414457ce1307ed637",
+    "q3_predeparture_prediction.py": "1315f826d5e5221b9110e2085a978a90fcffb695a7f165d67068d0e37057e2c3",
+    "q3_sensitivity.py": "80dab9196c5e6e6ae4a4ec44618077aff9b70f677228f5f869a8370c4c0a5b79",
+    "q3_verify.py": "7acc64516c1bc6a96cc0d03d9a8f5267bdee8f431c0a3192ff730d4d1703c49f"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "main_model_sha256": "bc778346328837c5fa969913a38f892031ec2d277c2f38b1842493a2aebd79e2",
+  "sensitivity_sha256": "f3ee3d7c7f95c8282237c99f9d4cf9b3f826d207c7458890584f48abf974ec8c",
+  "n_train": 2827210,
+  "source_sha256": "80dab9196c5e6e6ae4a4ec44618077aff9b70f677228f5f869a8370c4c0a5b79",
+  "info": "A",
+  "thresholds": [
+    45,
+    90
+  ],
+  "calibration": "identity"
+}

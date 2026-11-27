@@ -1,0 +1,74 @@
+[
+  {
+    "airport": "ATL",
+    "year": 2026,
+    "status": "available",
+    "hours": 6552,
+    "source": "https://previous-runs-api.open-meteo.com/v1/forecast?latitude=33.6367&longitude=-84.428101&hourly=temperature_2m_previous_day2&models=gfs_seamless&timezone=GMT&timeformat=unixtime&start_date=2026-01-01&end_date=2026-09-30",
+    "grid_lat": 33.6268,
+    "grid_lon": -84.41876
+  },
+  {
+    "airport": "DEN",
+    "year": 2026,
+    "status": "available",
+    "hours": 6552,
+    "source": "https://previous-runs-api.open-meteo.com/v1/forecast?latitude=39.861698150635&longitude=-104.672996521&hourly=temperature_2m_previous_day2&models=gfs_seamless&timezone=GMT&timeformat=unixtime&start_date=2026-01-01&end_date=2026-09-30",
+    "grid_lat": 39.87377,
+    "grid_lon": -104.68324
+  },
+  {
+    "airport": "DFW",
+    "year": 2026,
+    "status": "available",
+    "hours": 6552,
+    "source": "https://previous-runs-api.open-meteo.com/v1/forecast?latitude=32.896801&longitude=-97.038002&hourly=temperature_2m_previous_day2&models=gfs_seamless&timezone=GMT&timeformat=unixtime&start_date=2026-01-01&end_date=2026-09-30",
+    "grid_lat": 32.893456,
+    "grid_lon": -97.02648
+  },
+  {
+    "airport": "MCO",
+    "year": 2026,
+    "status": "available",
+    "hours": 6552,
+    "source": "https://previous-runs-api.open-meteo.com/v1/forecast?latitude=28.429399490356445&longitude=-81.30899810791016&hourly=temperature_2m_previous_day2&models=gfs_seamless&timezone=GMT&timeformat=unixtime&start_date=2026-01-01&end_date=2026-09-30",
+    "grid_lat": 28.431376,
+    "grid_lon": -81.311844
+  },
+  {
+    "airport": "ORD",
+    "year": 2026,
+    "status": "available",
+    "hours": 6552,
+    "source": "https://previous-runs-api.open-meteo.com/v1/forecast?latitude=41.9786&longitude=-87.9048&hourly=temperature_2m_previous_day2&models=gfs_seamless&timezone=GMT&timeformat=unixtime&start_date=2026-01-01&end_date=2026-09-30",
+    "grid_lat": 41.979725,
+    "grid_lon": -87.89026
+  },
+  {
+    "airport": "PDX",
+    "year": 2026,
+    "status": "available",
+    "hours": 6552,
+    "source": "https://previous-runs-api.open-meteo.com/v1/forecast?latitude=45.58869934&longitude=-122.5979996&hourly=temperature_2m_previous_day2&models=gfs_seamless&timezone=GMT&timeformat=unixtime&start_date=2026-01-01&end_date=2026-09-30",
+    "grid_lat": 45.576187,
+    "grid_lon": -122.59613
+  },
+  {
+    "airport": "RDU",
+    "year": 2026,
+    "status": "available",
+    "hours": 6552,
+    "source": "https://previous-runs-api.open-meteo.com/v1/forecast?latitude=35.87760162353516&longitude=-78.7874984741211&hourly=temperature_2m_previous_day2&models=gfs_seamless&timezone=GMT&timeformat=unixtime&start_date=2026-01-01&end_date=2026-09-30",
+    "grid_lat": 35.880856,
+    "grid_lon": -78.78379
+  },
+  {
+    "airport": "SFO",
+    "year": 2026,
+    "status": "available",
+    "hours": 6552,
+    "source": "https://previous-runs-api.open-meteo.com/v1/forecast?latitude=37.61899948120117&longitude=-122.375&hourly=temperature_2m_previous_day2&models=gfs_seamless&timezone=GMT&timeformat=unixtime&start_date=2026-01-01&end_date=2026-09-30",
+    "grid_lat": 37.62612,
+    "grid_lon": -122.400154
+  }
+]
